@@ -1,6 +1,6 @@
 <link rel="import" href="bower_components/polymer/polymer.html">
 <link rel="import" href="bower_components/app-layout/app-grid/app-grid-style.html">
-<dom-module id="order-row">
+<dom-module id="item-row">
     <template>
         <style>
             :host {
@@ -26,25 +26,20 @@
                 margin-right: 1em;
             }
         </style>
-        <template is="dom-repeat" items="[[items]]" as="item">
-            <ul class="app-grid">
-                <li class="item">Bàn [[tableNumber]]</li>
-                <li class="item"><span>[[item.itemAmount]]</span>[[item.itemName]]</li>
-                <li class="item">[[orderTime]]</li>
-            </ul>
-        </template>
+        <ul class="app-grid">
+            <li class="item">[[itemName]]</li>
+            <li class="item">[[itemAmount]]</li>
+            <li class="item">Bàn [[tableNumbers]]</li>
+        </ul>
     </template>
     <script>
         Polymer({
-            is: "order-row",
+            is: "item-row",
             properties: {
-                tableNumber: Number,
-                items: Array,
-                orderTime: Date
-            }/*,
-            getOrderTime: function(date){
-                return date.toTimeString().substr(0, 8);
-            }*/
+                tableNumbers: Array,
+                itemAmount: Number,
+                itemName: String
+            }
         })
     </script>
 </dom-module>
