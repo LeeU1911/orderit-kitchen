@@ -1,0 +1,48 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<dom-module id="order-row">
+    <template>
+        <style>
+            :host {
+                margin: 1em;
+            }
+        </style>
+        <style include="app-grid-style">
+            :host {
+                --app-grid-columns: 3;
+                --app-grid-item-height: 3em;
+            }
+
+            ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            .item {
+                background-color: white;
+            }
+
+            .item span{
+                margin-right: 1em;
+            }
+        </style>
+        <ul class="app-grid">
+            <li class="item">[[tableNumber]]</li>
+            <li class="item"><span>[[itemAmount]]</span>[[itemName]]</li>
+            <li class="item">[[getOrderTime(orderTime)]]</li>
+        </ul>
+    </template>
+    <script>
+        Polymer({
+            is: "order-row",
+            properties: {
+                tableNumber: String,
+                itemAmount: Number,
+                itemName: String,
+                orderTime: Date
+            },
+            getOrderTime: function(date){
+                return date.toTimeString().substr(0, 8);
+            }
+        })
+    </script>
+</dom-module>

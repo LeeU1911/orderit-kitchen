@@ -1,0 +1,9 @@
+{
+  "name": "OrderIt-Kitchen",
+  "scope": "./",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#F7B32D",
+  "background_color": "#F7B32D"
+}
