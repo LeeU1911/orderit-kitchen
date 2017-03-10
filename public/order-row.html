@@ -4,7 +4,7 @@
     <template>
         <style>
             :host {
-                margin: 1em;
+                /*margin: 1em;*/
             }
         </style>
         <style include="app-grid-style">
@@ -12,7 +12,6 @@
                 --app-grid-columns: 7;
                 --app-grid-item-height: auto;
                 --app-grid-expandible-item-columns: 5;
-                margin: 0 1em;
             }
 
             ul {
@@ -24,9 +23,11 @@
                 background-color: white;
                 text-align: center;
                 vertical-align: middle;
+                padding: 1em 0;
+                margin: 1em 0;
             }
 
-            .item span{
+            .item .amount{
                 margin-right: 1em;
                 padding: 5px;
                 border-radius: 10em;
@@ -41,18 +42,29 @@
             }
             .item-items {
                 @apply(--app-grid-expandible-item);
+                text-align: left;
             }
             .item-time{
                 background-color: #00b8d4;
                 border-radius: 0 5px 5px 0;
             }
+            .multi-item:not(:first-child) {
+                margin-top: 0.8em;
+            }
+            .multi-item {
+                display: table;
+                margin: 0 auto;
+            }
         </style>
 
         <ul class="app-grid">
-            <li class="item item-table">Bàn [[tableNumber]]</li>
+            <li class="item item-table">BÀN [[tableNumber]]</li>
             <li class="item item-items">
                 <template is="dom-repeat" items="[[items]]" as="item">
-                    <div class="multi-item"><span>[[item.itemAmount]]</span>[[item.itemName]]</div>
+                    <div class="multi-item">
+                        <span class="amount">[[item.itemAmount]]</span>
+                        <span class="name">[[capitalize(item.itemName)]]</span>
+                    </div>
                 </template>
             </li>
             <li class="item item-time">[[getOrderTime(orderTime)]]</li>
@@ -68,10 +80,13 @@
             },
             getOrderTime: function(date){
                 if(typeof date.getMonth === 'function'){
-                    return date.toTimeString().substr(0, 8);
+                    return date.toTimeString().substr(0, 5);
                 }else {
-                    return new Date(date).toTimeString().substr(0, 8);
+                    return new Date(date).toTimeString().substr(0, 5);
                 }
+            },
+            capitalize: function(text){
+                return text.toUpperCase();
             }
         })
     </script>
