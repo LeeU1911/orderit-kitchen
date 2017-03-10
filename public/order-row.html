@@ -9,8 +9,10 @@
         </style>
         <style include="app-grid-style">
             :host {
-                --app-grid-columns: 3;
-                --app-grid-item-height: 3em;
+                --app-grid-columns: 7;
+                --app-grid-item-height: auto;
+                --app-grid-expandible-item-columns: 5;
+                margin: 0 1em;
             }
 
             ul {
@@ -20,19 +22,41 @@
 
             .item {
                 background-color: white;
+                text-align: center;
+                vertical-align: middle;
             }
 
             .item span{
                 margin-right: 1em;
+                padding: 5px;
+                border-radius: 10em;
+                background-color: black;
+                font-weight: bold;
+                color: white;
+            }
+
+            .item-table {
+                background-color: #F7B32D;
+                border-radius: 5px 0 0 5px;
+            }
+            .item-items {
+                @apply(--app-grid-expandible-item);
+            }
+            .item-time{
+                background-color: #00b8d4;
+                border-radius: 0 5px 5px 0;
             }
         </style>
-        <template is="dom-repeat" items="[[items]]" as="item">
-            <ul class="app-grid">
-                <li class="item">Bàn [[tableNumber]]</li>
-                <li class="item"><span>[[item.itemAmount]]</span>[[item.itemName]]</li>
-                <li class="item">[[orderTime]]</li>
-            </ul>
-        </template>
+
+        <ul class="app-grid">
+            <li class="item item-table">Bàn [[tableNumber]]</li>
+            <li class="item item-items">
+                <template is="dom-repeat" items="[[items]]" as="item">
+                    <div class="multi-item"><span>[[item.itemAmount]]</span>[[item.itemName]]</div>
+                </template>
+            </li>
+            <li class="item item-time">[[getOrderTime(orderTime)]]</li>
+        </ul>
     </template>
     <script>
         Polymer({
@@ -41,10 +65,14 @@
                 tableNumber: Number,
                 items: Array,
                 orderTime: Date
-            }/*,
+            },
             getOrderTime: function(date){
-                return date.toTimeString().substr(0, 8);
-            }*/
+                if(typeof date.getMonth === 'function'){
+                    return date.toTimeString().substr(0, 8);
+                }else {
+                    return new Date(date).toTimeString().substr(0, 8);
+                }
+            }
         })
     </script>
 </dom-module>

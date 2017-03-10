@@ -8,7 +8,7 @@
             :host .panel{
                 margin: 1em;
             }
-            :host .panel-header {
+            .panel-header {
                 text-align: center;
                 background: url('img/order-panel-bg.png') center no-repeat;
                 padding: 2em;
@@ -18,6 +18,10 @@
                 background-color: rgb(37, 37, 37);
                 width: 100%;
                 height: 100%;
+                margin-top: -22px;
+            }
+            .orders {
+                padding: 0 0.4em;
             }
         </style>
         <firebase-query
@@ -42,7 +46,6 @@
                             table-number="[[order.table]]"
                             items="[[order.items]]"
                             order-time="[[order.date]]">
-
                         </order-row>
                     </template>
                 </div>
