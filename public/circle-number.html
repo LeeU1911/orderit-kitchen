@@ -1,0 +1,31 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<dom-module id="circle-number">
+    <template>
+        <style>
+            :host {
+                margin-right: 0.5em;
+                border-radius: 50%;
+                background-color: black;
+                font-weight: bold;
+                color: white;
+                width: 50px;
+            }
+
+            :host span{
+                line-height: 50px;
+                display: block;
+                text-align: center;
+            }
+
+        </style>
+        <span>[[number]]</span>
+    </template>
+    <script>
+        Polymer({
+            is: "circle-number",
+            properties: {
+                number: Number
+            }
+        })
+    </script>
+</dom-module>

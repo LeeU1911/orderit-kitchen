@@ -1,5 +1,6 @@
 <link rel="import" href="bower_components/polymer/polymer.html">
 <link rel="import" href="bower_components/app-layout/app-grid/app-grid-style.html">
+<link rel="import" href="circle-number.html">
 <dom-module id="order-row">
     <template>
         <style>
@@ -28,12 +29,18 @@
             }
 
             .item .amount{
-                margin-right: 1em;
-                padding: 5px;
-                border-radius: 10em;
+                margin-right: 0.5em;
+                border-radius: 50%;
                 background-color: black;
                 font-weight: bold;
                 color: white;
+            }
+
+            .item .amount span{
+                line-height: 20px;
+                display: block;
+                text-align: center;
+                width: 20px;
             }
 
             .item-table {
@@ -52,8 +59,7 @@
                 margin-top: 0.8em;
             }
             .multi-item {
-                display: table;
-                margin: 0 auto;
+                margin-left: calc(40% - 40px);
             }
         </style>
 
@@ -62,6 +68,7 @@
             <li class="item item-items">
                 <template is="dom-repeat" items="[[items]]" as="item">
                     <div class="multi-item">
+                        <!--<circle-number number="[[item.itemAmount]]"></circle-number>-->
                         <span class="amount">[[item.itemAmount]]</span>
                         <span class="name">[[capitalize(item.itemName)]]</span>
                     </div>
