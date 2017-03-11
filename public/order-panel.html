@@ -25,23 +25,11 @@
                 padding: 0 0.4em 1em 0.4em;
             }
         </style>
-        <firebase-query
-                id="query"
-                app-name="orderit-kitchen-fire"
-                path="/biz/kfc/orders"
-                data="{{orders}}">
-        </firebase-query>
-        <app-indexeddb-mirror
-                session="[[user.uid]]"
-                key="orders"
-                data="{{orders}}"
-                persisted-data="{{persistedOrders}}">
-        </app-indexeddb-mirror>
         <div class="panel">
             <div class="panel-header"><h1>Orders</h1></div>
             <div class="panel-body">
                 <div class="orders">
-                    <template is="dom-repeat" items="[[persistedOrders]]" as="order">
+                    <template is="dom-repeat" items="[[orders]]" as="order">
                         <order-row
                             id$="[[order.$key]]"
                             table-number="[[order.table]]"
@@ -55,7 +43,10 @@
     </template>
     <script>
         Polymer({
-            is: "order-panel"
+            is: "order-panel",
+            properties: {
+                orders: Array
+            }
         });
     </script>
 </dom-module>
