@@ -20,6 +20,10 @@
                 list-style: none;
             }
 
+            .white-text {
+                color: white;
+                font-weight: bold;
+            }
             .item {
                 background-color: white;
                 text-align: center;
@@ -64,7 +68,7 @@
         </style>
 
         <ul class="app-grid">
-            <li class="item item-table">BÀN [[tableNumber]]</li>
+            <li class="item item-table white-text">BÀN [[tableNumber]]</li>
             <li class="item item-items">
                 <template is="dom-repeat" items="[[items]]" as="item">
                     <div class="multi-item">
@@ -74,7 +78,7 @@
                     </div>
                 </template>
             </li>
-            <li class="item item-time">[[getOrderTime(orderTime)]]</li>
+            <li class="item item-time white-text">[[getOrderTime(orderTime)]]</li>
         </ul>
     </template>
     <script>
