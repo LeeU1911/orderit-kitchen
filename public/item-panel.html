@@ -27,17 +27,16 @@
             <div class="panel-header"><h1>Foods / Drinks</h1></div>
             <div class="panel-body">
                 <div class="items">
-                    <!--<template is="dom-repeat" items="[[items]]" as="item">-->
-                        <!--<item-row-->
-                                <!--id$="[[item.$key]]"-->
-                                <!--table-numbers="[[item.tables]]"-->
-                                <!--item-amount="[[item.amount]]"-->
-                                <!--item-name="[[item.name]]">-->
-                        <!--</item-row>-->
-                    <!--</template>-->
-                    <item-row table-numbers="[1,2,3]" item-amount="1" item-name="Coffee"></item-row>
-                    <item-row table-numbers="[3]" item-amount="1" item-name="Milk"></item-row>
-                    <item-row table-numbers="[1,2,3]" item-amount="1" item-name="Coffee"></item-row>
+                    <template is="dom-repeat" items="[[items]]" as="item">
+                        <item-row
+                                table-numbers="[[item.tables]]"
+                                item-amount="[[item.amount]]"
+                                item-name="[[item.name]]">
+                        </item-row>
+                    </template>
+                    <!--<item-row table-numbers="[1,2,3]" item-amount="1" item-name="Coffee"></item-row>-->
+                    <!--<item-row table-numbers="[3]" item-amount="1" item-name="Milk"></item-row>-->
+                    <!--<item-row table-numbers="[1,2,3]" item-amount="1" item-name="Coffee"></item-row>-->
                 </div>
             </div>
         </div>

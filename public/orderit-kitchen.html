@@ -78,7 +78,13 @@
                 this.$.auth.signInWithPopup();
             },
             transformOrdersToItemList: function(orders){
-                return orders;
+                var items = [];
+                var item = {tables: [1,2,3], name: "Coffee", amount: 1};
+                for( var i = 0; i < orders.length; i++){
+
+                }
+                items.push(item);
+                return items;
             }
         });
     </script>

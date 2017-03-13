@@ -63,27 +63,14 @@
             }
         </style>
         <ul class="app-grid">
-            <li class="item item-head white-text">[[itemName]]</li>
+            <li class="item item-head white-text">[[capitalize(itemName)]]</li>
             <li class="item item-middle">
                 <div class="multi-item">
                     <span class="amount">[[itemAmount]]</span> LY
                 </div>
             </li>
-            <li class="item item-tail white-text">Bàn [[tableNumbers]]</li>
+            <li class="item item-tail white-text">BÀN [[tableNumbers]]</li>
         </ul>
-        <!--<ul class="app-grid">-->
-            <!--<li class="item item-head white-text"><span>BÀN [[tableNumber]]</span></li>-->
-            <!--<li class="item item-items">-->
-                <!--<template is="dom-repeat" items="[[items]]" as="item">-->
-                    <!--<div class="multi-item">-->
-                        <!--&lt;!&ndash;<circle-number number="[[item.itemAmount]]"></circle-number>&ndash;&gt;-->
-                        <!--<span class="amount">[[item.itemAmount]]</span>-->
-                        <!--<span class="name">[[capitalize(item.itemName)]]</span>-->
-                    <!--</div>-->
-                <!--</template>-->
-            <!--</li>-->
-            <!--<li class="item item-tail white-text"><span>[[getOrderTime(orderTime)]]</span></li>-->
-        <!--</ul>-->
     </template>
     <script>
         Polymer({
@@ -92,6 +79,9 @@
                 tableNumbers: Array,
                 itemAmount: Number,
                 itemName: String
+            },
+            capitalize: function(text){
+                return text.toUpperCase();
             }
         })
     </script>
