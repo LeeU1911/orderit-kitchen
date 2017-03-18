@@ -68,7 +68,7 @@
         </app-indexeddb-mirror>
         <ul class="app-grid">
             <li class="item"><order-panel orders="[[persistedOrders]]"></order-panel></li>
-            <li class="item"><item-panel items="[[transformOrdersToItemList(persistedOrders)]]"></item-panel></li>
+            <li class="item"><item-panel orders="[[persistedOrders]]"></item-panel></li>
         </ul>
     </template>
     <script>
@@ -76,15 +76,6 @@
             is: 'orderit-kitchen',
             signIn: function() {
                 this.$.auth.signInWithPopup();
-            },
-            transformOrdersToItemList: function(orders){
-                var items = [];
-                var item = {tables: [1,2,3], name: "Coffee", amount: 1};
-                for( var i = 0; i < orders.length; i++){
-
-                }
-                items.push(item);
-                return items;
             }
         });
     </script>
