@@ -7,6 +7,7 @@
                 --app-grid-columns: 9;
                 --app-grid-item-height: auto;
                 --app-grid-expandible-item-columns: 3;
+                text-align: center;;
             }
 
             ul {
@@ -61,6 +62,24 @@
             .multi-item {
                 margin-left: calc(40% - 40px);
             }
+
+            .buttons {
+                margin: 0.5em;
+                color: white;
+            }
+
+            .button {
+                margin-left: 4em;
+                padding: 1em 2em;
+            }
+            .start{
+                background-color: rgb(0, 200, 222);
+            }
+
+            .done {
+                background-color: rgb(105,105,105);
+            }
+
         </style>
         <ul class="app-grid">
             <li class="item item-head white-text">[[capitalize(itemName)]]</li>
@@ -71,6 +90,10 @@
             </li>
             <li class="item item-tail white-text">BÀN [[tableNumbers]]</li>
         </ul>
+        <div class="buttons">
+            <paper-button raised class="start button">Start</paper-button>
+            <paper-button disabled class="done button">Done</paper-button>
+        </div>
     </template>
     <script>
         Polymer({
