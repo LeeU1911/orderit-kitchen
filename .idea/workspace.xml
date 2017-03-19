@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c395626a-9cb8-4e2b-ad3e-7820df98641c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/item-panel.html" afterPath="$PROJECT_DIR$/public/item-panel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/item-row.html" afterPath="$PROJECT_DIR$/public/item-row.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/orderit-kitchen.html" afterPath="$PROJECT_DIR$/public/orderit-kitchen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,21 +21,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="orderit-kitchen.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/orderit-kitchen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <state relative-caret-position="119">
+              <caret line="46" column="13" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="46" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderit-kitchen.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/orderit-kitchen.html">
+      <file leaf-file-name="firebase-query.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/polymerfire/firebase-query.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="6052">
+              <caret line="356" column="28" lean-forward="false" selection-start-line="356" selection-start-column="20" selection-end-line="356" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firebase-common-behavior.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/polymerfire/firebase-common-behavior.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="na-login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/note-app-elements/na-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-indexeddb-mirror.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="82" column="14" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -45,18 +74,8 @@
       <file leaf-file-name="item-panel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/item-panel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="35" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order-row.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/order-row.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="95" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -65,8 +84,28 @@
       <file leaf-file-name="item-row.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/item-row.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+            <state relative-caret-position="170">
+              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order-row.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/order-row.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,8 +114,8 @@
       <file leaf-file-name="order-panel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/order-panel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="38" column="31" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="-204">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -97,6 +136,8 @@
       <find>app-name</find>
       <find>firebase-auth</find>
       <find>_computeUser</find>
+      <find>fire</find>
+      <find>this.set</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,10 +153,11 @@
         <option value="$PROJECT_DIR$/public/circle-number.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/order-panel.html" />
-        <option value="$PROJECT_DIR$/public/order-row.html" />
+        <option value="$PROJECT_DIR$/public/orderit-kitchen.html" />
         <option value="$PROJECT_DIR$/public/item-panel.html" />
         <option value="$PROJECT_DIR$/public/item-row.html" />
-        <option value="$PROJECT_DIR$/public/orderit-kitchen.html" />
+        <option value="$PROJECT_DIR$/public/order-row.html" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -126,7 +168,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -145,8 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,21 +316,41 @@
       <updated>1488680604689</updated>
       <workItem from="1488680606061" duration="16452000" />
       <workItem from="1488806994046" duration="2776000" />
-      <workItem from="1488966950023" duration="16820000" />
+      <workItem from="1488966950023" duration="17399000" />
+      <workItem from="1489417829110" duration="2935000" />
+      <workItem from="1489497092212" duration="3918000" />
+      <workItem from="1489672811272" duration="28000" />
+      <workItem from="1489811706448" duration="8126000" />
+      <workItem from="1489839580343" duration="3288000" />
+      <workItem from="1489905127298" duration="2474000" />
     </task>
+    <task id="LOCAL-00001" summary="Finish transforming orders to items list, including aggregate repeated items">
+      <created>1489818956078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489818956078</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Uncomment login code">
+      <created>1489819934653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489819934653</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36048000" />
+    <option name="totallyTimeSpent" value="57396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20299146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3846154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -300,6 +362,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -309,11 +372,104 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish transforming orders to items list, including aggregate repeated items" />
+    <MESSAGE value="Uncomment login code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncomment login code" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="12" lean-forward="false" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/item-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order-row.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="25" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/item-row.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="15" lean-forward="false" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="38" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/orderit-kitchen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/item-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order-row.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/item-row.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="38" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -366,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -422,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -437,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1849">
           <caret line="346" column="17" lean-forward="false" selection-start-line="346" selection-start-column="16" selection-end-line="346" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -481,24 +633,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1550">
           <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/kitchen-panel.html" />
-    <entry file="file://$PROJECT_DIR$/public/bower_components/polymerfire/firebase-query.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/polymer/polymer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2051">
           <caret line="4707" column="5" lean-forward="false" selection-start-line="4707" selection-start-column="5" selection-end-line="4707" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="188" column="7" lean-forward="true" selection-start-line="188" selection-start-column="7" selection-end-line="188" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +662,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/browsersync.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -534,42 +680,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/order-panel.html">
+    <entry file="file://$PROJECT_DIR$/public/bower_components/note-app-elements/na-login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/item-panel.html">
+    <entry file="file://$PROJECT_DIR$/public/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="1394">
+          <caret line="82" column="14" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/order-row.html">
+    <entry file="file://$PROJECT_DIR$/public/bower_components/polymerfire/firebase-common-behavior.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="95" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/item-row.html">
+    <entry file="file://$PROJECT_DIR$/public/bower_components/polymerfire/firebase-database-behavior.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+        <state relative-caret-position="-1184">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/polymerfire/firebase-query.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6052">
+          <caret line="356" column="28" lean-forward="false" selection-start-line="356" selection-start-column="20" selection-end-line="356" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/orderit-kitchen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/item-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/item-row.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order-row.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
